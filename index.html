@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Crypto currency convert </title>
+    <link rel='stylesheet' href='./styles/general.css'>
+    <link 
+        rel="stylesheet"
+        href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"
+    />
+    <script src='./scripts/app.js' defer></script>
+</head>
+
+<body>
+    <main>
+        <figure class="main__figure">
+            <img src="./images/_cripto.svg" alt="cripto">
+        </figure>
+        <div class="main__form">
+            <form>
+                <div class="form__fields">
+                    <div class="form__field currencies">
+                        <label for="select__currency">Currencies: </label>
+                        <select name="" id="select__currency" required>
+                            <option selected disabled>Select a currency...</option>
+                            <option value="PEN">Peruvian Sol</option>
+                        </select>
+                    </div>
+                    <div class="form__field cryptos">
+                        <label for="select__crypto">Cryptos: </label>
+                        <select name="" id="select__crypto" required>
+                            <option selected disabled>Select a crypto...</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit">Go!</button>
+            </form>
+            <div id="form__result" class="show">Result! 😉</div>
+        </div>
+    </main>
+</body>
+
+</html>
